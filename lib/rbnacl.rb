@@ -11,6 +11,7 @@ require "rbnacl/auth/hmac_sha256"
 require "rbnacl/auth/one_time"
 require "rbnacl/random"
 require "rbnacl/encoder"
+require "rbnacl/encoders/base64"
 require "rbnacl/encoders/hex"
 
 module Crypto
